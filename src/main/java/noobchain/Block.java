@@ -23,6 +23,14 @@ public class Block {
 						);
 		return calculatedHash;
 	}
+
+	@Override
+	public String toString() {
+		return "Block [hash=" + hash + ", previousHash=" + previousHash + ", data=" + data + ", timeStamp=" + timeStamp
+				+ "]";
+	}
+	
+	
 	
 	
 		
